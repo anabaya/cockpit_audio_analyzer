@@ -1,0 +1,7 @@
+[format]
+quote-style = "double"
+docstring-code-format = true
+
+[lint.isort]
+force-sort-within-sections = true
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
